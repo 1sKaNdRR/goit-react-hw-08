@@ -1,16 +1,27 @@
-.friendWrap {
-    border: 1px solid;
-    border-radius: 4px;
-    width: 300px;
-    padding: 10px;
-    flex-wrap: wrap;
-    flex-direction: row;
+.container {
+    width: 400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.name,
+.number {
+    font-size: 20px;
+}
+
+.contactsInfo {
+    display: flex;
+    gap: 12px;
 }
 
 .button {
-    height: 50px;
-    width: 110px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(143, 141, 141);
+    padding: 4px 8px;
+    font-size: 12px;
 }
